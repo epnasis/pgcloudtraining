@@ -23,7 +23,7 @@ for ($i = 1; $i <= 5; $i++) {
 }
 
 if($updatedFields){
-    $databaseName = getenv('database');/
+    $databaseName = getenv('database');
     $password = getenv('SQLAZURECONNSTR_password');
     $user = getenv('user');
     $serverName = getenv('server');
